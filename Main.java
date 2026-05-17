@@ -26,74 +26,74 @@ public class Main {
 
                 case 1:
 
-                    System.out.print("Nome do paciente: ");
-                    String paciente = sc.nextLine();
+             System.out.print("Nome do paciente: ");
+             String paciente = sc.nextLine();
 
-                    System.out.print("Nome do profissional: ");
-                    String profissional = sc.nextLine();
+             System.out.print("Nome do profissional: ");
+             String profissional = sc.nextLine();
 
-                    System.out.print("Data da consulta: ");
-                    String data = sc.nextLine();
+            System.out.print("Data da consulta: ");
+            String data = sc.nextLine();
 
-                    System.out.print("Horário da consulta: ");
-                    String horario = sc.nextLine();
+            System.out.print("Horário da consulta: ");
+            String horario = sc.nextLine();
 
-                    System.out.println("\nConsulta agendada com sucesso!");
-                    System.out.println("Paciente: " + paciente);
-                    System.out.println("Profissional: " + profissional);
-                    System.out.println("Data: " + data);
-                    System.out.println("Horário: " + horario);
+            System.out.println("\nConsulta agendada com sucesso!");
+            System.out.println("Paciente: " + paciente);
+            System.out.println("Profissional: " + profissional);
+            System.out.println("Data: " + data);
+            System.out.println("Horário: " + horario);
 
-                    break;
+             break;
 
-                case 2:
+           case 2:
 
-                    System.out.print("Nome do paciente: ");
-                    String pacienteAtendimento = sc.nextLine();
+            System.out.print("Nome do paciente: ");
+            String pacienteAtendimento = sc.nextLine();
 
-                    System.out.print("Descrição do atendimento: ");
-                    String atendimento = sc.nextLine();
+            System.out.print("Descrição do atendimento: ");
+            String atendimento = sc.nextLine();
 
-                    System.out.println("\nAtendimento registrado com sucesso!");
-                    System.out.println("Paciente: " + pacienteAtendimento);
-                    System.out.println("Descrição: " + atendimento);
+            System.out.println("\nAtendimento registrado com sucesso!");
+            System.out.println("Paciente: " + pacienteAtendimento);
+            System.out.println("Descrição: " + atendimento);
 
-                    break;
+            break;
 
-                case 3:
+            case 3:
 
-                    System.out.print("Código da consulta: ");
-                    int codigo = sc.nextInt();
+             System.out.print("Código da consulta: ");
+             int codigo = sc.nextInt();
 
-                    if (codigo > 0) {
-                        System.out.println("Consulta cancelada.");
+             if (codigo > 0) {
+             System.out.println("Consulta cancelada.");
                     } else {
-                        System.out.println("Código inválido.");
+             System.out.println("Código inválido.");
                     }
 
-                    break;
+             break;
 
-                case 4:
+            case 4:
 
-                    System.out.print("Código da consulta: ");
-                    int codigo2 = sc.nextInt();
+            System.out.print("Código da consulta: ");
+            int codigo2 = sc.nextInt();
 
-                    if (codigo2 > 0) {
-                        System.out.println("Consulta remarcada.");
-                    } else {
-                        System.out.println("Código inválido.");
-                    }
+            if (codigo2 > 0) {
+            System.out.println("Consulta remarcada.");
+                } else {
+                 System.out.println("Código inválido.");
+                }
 
-                    break;
+            break;
 
-                case 0:
+        case 0:
 
-                    System.out.println("Sistema encerrado.");
-                    break;
+            System.out.println("Sistema encerrado.");
+                break;
 
                 default:
 
-                    System.out.println("Opção inválida.");
+            System.out.println("Opção inválida.");
             }
         }
 
